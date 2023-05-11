@@ -6,7 +6,7 @@
     
 }
 body{
-    background-color:green;
+    background-color:skyblue;
 
 }
 h1{
@@ -66,8 +66,8 @@ h1{
     width:30%;
     margin:auto;
     padding:0.5em;
-    background-color: red;
-    color:white;
+    background-color: yellow;
+    color:red;
     font-weight: 800;
 }
 .output{
