@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-color:green;
+
+}
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1em;
+    color: white;
+}
+.container{
+    /* max-width: 100%; */
+    display:grid;
+    padding: 3%;
+    grid-template-columns: 1fr;
+    color:#efefef;
+    gap:2em;
+}
+
+.registrationcontainer{
+    font-weight: 900;
+    
+    width:auto;
+    height:auto;
+    padding:1em;
+    grid-template-columns: 1fr;
+    gap:1em;
+    font-size: 20px;
+    background-color:rgb(237, 242, 242);
+    
+    background-blend-mode: soft-light,screen;
+    box-shadow:#efefef;
+}
+.name{
+    font-weight: 900;
+    display: block;
+    color: black;
+    padding: 2%;
+}
+.email{
+    font-weight: 900;
+    display: block;
+    color: black;
+    padding: 2%;
+}
+.websitelink{
+    font-weight: 900;
+    display: block;
+    color: black;
+    padding: 2%;
+}
+.skills{
+    font-weight: 900;
+    display: block;
+    color: black;
+    padding: 2%;
+}
+.submit{
+    width:30%;
+    margin:auto;
+    padding:0.5em;
+    background-color: red;
+    color:white;
+    font-weight: 800;
+}
+.output{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0.5em;
+    justify-items: center;
+}
+.addData{
+    text-align: center;
+    width:70%;
+    height:auto;
+    padding:1em;
+    background-color:lightskyblue;
+    background-blend-mode: soft-light,screen;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+/*Responsiveness*/
+@media all and (max-width:900px){
+    .output{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:0.5em;
+        justify-items: center;
+    }
+
+}
+@media all and (max-width:400px){
+    .container{
+        padding:0.4em;
+    }
+    .registrationcontainer{
+        padding:0.5em;
+    }
+    .output{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap:0.5em;
+        justify-items: center;
+    }
+}
